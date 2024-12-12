@@ -1,0 +1,23 @@
+{
+  "name": "wrikkaos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "markdown-it": "^14.0.0",
+    "nuxt": "^3.13.0",
+    "vue": "^3.3.10"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.273",
+    "@unocss/nuxt": "^0.64.1",
+    "@unocss/preset-icons": "^0.64.1",
+    "@unocss/preset-web-fonts": "^0.64.1"
+  }
+}
